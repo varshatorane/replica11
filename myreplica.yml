@@ -1,7 +1,7 @@
 apiVersion: v3
 kind: ReplicationController
 metadata:
-  name: mynginxrc
+  name: mynginx-rc
 spec:
   replicas: 3
   selector:
