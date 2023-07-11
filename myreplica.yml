@@ -13,6 +13,6 @@ spec:
     spec:
       containers:
       - name: mynginx-container
-        image: nginx
+        image: maha4iac/mahalogin:1
         ports:
         - containerPort: 80
